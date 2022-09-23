@@ -1,0 +1,14 @@
+
+# dataset
+training_paths: [ data/processed/CelebA/train ] 
+valid_paths: [ data/processed/CelebA/valid ] 
+test_paths: [ data/processed/CelebA/test ] 
+valid_tags: [ celeb-fakes ]
+test_tags: [ celeb-fakes ]
+train_batch_size: 96
+val_batch_size: 96
+image_size: 224
+balance: true
+
+seed: 220922
+num_workers: 8
